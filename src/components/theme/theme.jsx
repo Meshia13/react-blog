@@ -3,15 +3,17 @@ import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
-    primary: {
-      main: '#6a1b9a', // purple
-    },
-    secondary: {
-      main: '#ff4081', // pink
-    },
+    primary: { main: '#B89957'},
+    secondary: { main: '#ff4081' },
+    // Make adjustments
+    background: {default: "#B89957", paper: "#B89957" }, 
+    text: {}
   },
   typography: {
     fontFamily: 'Roboto, sans-serif',
+    h1: { fontSize: '1rem', fontWeight: "bold"},
+    h2: {},
+    h3: {}
   },
 });
 
