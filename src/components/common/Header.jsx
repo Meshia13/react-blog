@@ -15,3 +15,7 @@ function Header() {
 }
 
 export default Header
+
+{/* <Box>
+<Typography>Original Shorts Blog</Typography>
+</Box> */}
