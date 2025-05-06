@@ -1,6 +1,6 @@
 import React from "react"
 import { Box, Typography } from "@mui/material"
-import cover from "../../assets/images/PaperAndQuill.png"
+// import cover from "../../assets/images/bg5.jpg"
 
 
 function LandingPage () {
@@ -8,10 +8,12 @@ function LandingPage () {
 
         <Box 
             sx={{
-                backgroundImage: `url(${cover})`,
+                // backgroundImage: `url(${cover})`,
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
-                height: '385px'
+                height: '385px',
+                
+                // backgroundColor: '#795548'
             }}
         >
             {/* <Typography variant="h4">Shorts:</Typography>

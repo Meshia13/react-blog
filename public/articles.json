@@ -1,0 +1,28 @@
+[
+    {
+        "id" : 1,
+        "title" : "Who Killed Mr. GoodBar?",
+        "image" : "/images/CaseFile.png",
+        "description" : "The scandal that shook Candy Land! Joe Goodbar and Amanda (Almond) Joy appeared to be the ideal couple. However, things aren't always smooth like chocolate and coconuts. From his association with notorious gangsters Mike and Ike, his extramarital affairs with mistresses Katherine (KitKat) and secretary Mrs. Airhead, to the embezzlement of 100 Grand, everyone is pondering: Who Killed Mr. Goodbar?"
+    },
+    {
+        "id" : 2,
+        "title" : "Ice Cream Bandits Strikes Again",
+        "image" : "/images/icecream2.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum explicabo, expedita corporis reprehenderit recusandae natus consequuntur nesciunt minus debitis excepturi ut aut ex facere enim quisquam rerum. Fuga, id!"
+    },
+
+    {
+        "id" : 3,
+        "title" : "Newly Built Station",
+        "image" : "/images/PoliceStation.png",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum explicabo, expedita corporis reprehenderit recusandae natus consequuntur nesciunt minus debitis excepturi ut aut ex facere enim quisquam rerum. Fuga, id!"
+    },
+
+    {
+        "id" : 4,
+        "title" : "Humans: A Threat to Candy Land",
+        "image" : "/images/kids.jpg",
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, earum explicabo, expedita corporis reprehenderit recusandae natus consequuntur nesciunt minus debitis excepturi ut aut ex facere enim quisquam rerum. Fuga, id!"
+    }
+]

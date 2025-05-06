@@ -6,8 +6,12 @@ const theme = createTheme({
     primary: { main: '#B89957'},
     secondary: { main: '#ff4081' },
     // Make adjustments
-    background: {default: "#B89957", paper: "#B89957" }, 
+    // background: {default: "#B89957", paper: "#B89957" }, 
     text: {}
+  },
+  background :{
+    default: '#795548',
+    
   },
   typography: {
     fontFamily: 'Roboto, sans-serif',

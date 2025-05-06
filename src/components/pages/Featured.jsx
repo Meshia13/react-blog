@@ -21,9 +21,14 @@ function FeaturedStory() {
       }, []);
     
       return (
-        <Box>
-          <Typography component="pre" sx={{ whiteSpace: 'pre-wrap' }}>{text}</Typography>
-        </Box>
+        <>
+        
+          <Box>
+            {/* <Typography component="pre" sx={{ whiteSpace: 'pre-wrap' }}>{text}</Typography> */}
+            <Typography component="pre" sx={{ whiteSpace: 'pre-wrap' }}>Hello World</Typography>
+          </Box>
+        </>
+        
       );
 }
 export default FeaturedStory
