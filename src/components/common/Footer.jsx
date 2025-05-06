@@ -1,14 +1,30 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, AppBar, Toolbar, Container } from '@mui/material';
+
 
 function Footer() {
 
     return (
         <>
-            <Box component="footer" sx={{ p: 2, textAlign: 'center', backgroundColor: 'primary.main', color: 'white' }}>
-                <Typography variant="body2">
-                    Carmeshia Lazzana &copy; 2025
-                </Typography>
-            </Box>
+
+            <AppBar position="static" sx={{textAlign: 'center',}}>
+                <Container >
+                    <Toolbar disableGutters sx={{ justifyContent: 'center' }}>
+                    
+                        <Typography
+                            variant="h6"
+                            noWrap
+                            component="div"
+                            sx={{
+                                display: 'flex',
+                                color: 'white',
+                                textDecoration: 'none',
+                            }}>
+                            Carmeshia Lazzana &copy; 2025
+                        </Typography>
+                        
+                    </Toolbar>
+                </Container>
+            </AppBar>
         </>
     
     )
