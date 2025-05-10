@@ -18,6 +18,7 @@ function Footer() {
                                 display: 'flex',
                                 color: 'white',
                                 textDecoration: 'none',
+                                width: "100%"
                             }}>
                             Carmeshia Lazzana &copy; 2025
                         </Typography>

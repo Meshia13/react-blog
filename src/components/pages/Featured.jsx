@@ -1,34 +1,29 @@
-import { Typography, Box } from '@mui/material';
-import React, {useState, useEffect} from 'react'
-// import story from '../../../../public/stories/MrGoodar.txt'
+import { 
+  Box,
+} from '@mui/material';
+import Article from '../stories/Article';
+import Sidebar from '../common/Sidebar';
+
 
 function FeaturedStory() {
-    const [text, setText] = useState('');
+   
+  return (
+    <>
     
-      useEffect(() => {
-        const fetchText = async () => {
-          try {
-            const response = await fetch( '../../../../public/stories/MrGoodar.txt');
-            const data = await response.text();
-            setText(data);
-            console.log(data)
-          } catch (error) {
-            console.error('Error fetching text:', error);
-          }
-        };
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'row',
+          gap: 20,
+        }}
+      > 
+        <Article/>
+        <Sidebar />
+
+      </Box>
+      
+    </>
     
-        fetchText();
-      }, []);
-    
-      return (
-        <>
-        
-          <Box>
-            {/* <Typography component="pre" sx={{ whiteSpace: 'pre-wrap' }}>{text}</Typography> */}
-            <Typography component="pre" sx={{ whiteSpace: 'pre-wrap' }}>Hello World</Typography>
-          </Box>
-        </>
-        
-      );
+  );
 }
 export default FeaturedStory
