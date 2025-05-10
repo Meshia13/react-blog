@@ -6,6 +6,7 @@ import { Box } from "@mui/material";
 import ResponsiveAppBar from "./components/common/Navbar";
 import HomePage from "./components/pages/HomePage";
 
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -42,7 +43,7 @@ function App() {
       </BrowserRouter>
       {/* <FeaturedStory /> */}
       
-      <Footer />
+      {/* <Footer /> */}
       {/* </Box> */}
         
     </>
